@@ -2,6 +2,7 @@ import { cart, addToCart } from "../data/cart.js";
 import { products, loadProducts } from "../data/products.js";
 import { formateCurrency } from "./utils/money.js";
 
+
 loadProducts(renderProductsGrid);
 
 function renderProductsGrid() {
